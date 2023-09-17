@@ -1,0 +1,149 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+.barra-superior {
+  display: flex;
+  padding: 20px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 1;
+  background-color: #fff;
+  width: 100%;
+  /* position: fixed; */
+}
+
+.logo {
+  width: 70px;
+}
+
+.principal-top {
+  width: 100%;
+  font-size: 1.5em;
+  color: rgb(255, 255, 255);
+  top: 0;
+  left: 0;
+  line-height: 45px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+h1 {
+  font-style: italic;
+}
+
+.principal {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  justify-content: end;
+  align-items: center;
+  position: relative;
+  padding: 20px;
+  width: 100%;
+  height: 500px;
+  background-position: center;
+  background: linear-gradient(to top, transparent, rgb(0, 0, 0)),
+    url("./assets/images/llave.jpg");
+}
+
+.menu ul {
+  display: flex;
+  list-style: none;
+}
+
+.menu a {
+  padding: 0 10px;
+  text-decoration: none;
+}
+
+li:hover {
+  text-decoration: underline solid #f1025a 5px;
+}
+
+.button-cta {
+  padding: 20px 40px;
+  margin-bottom: 80px;
+  border: 0;
+  background: #f1025a;
+  color: white;
+  font-size: 1.5em;
+  text-decoration: none;
+  box-shadow: 0px 0px 20px black;
+}
+
+.seccion-2 {
+  padding: 20px;
+  line-height: 1.5em;
+  text-align: center;
+}
+
+.seccion-2-header {
+  padding: 10px;
+  font-style: normal;
+  border-top-left-radius: 20px;
+  border-bottom: solid grey 2px;
+  position: sticky;
+  top: 0;
+}
+
+.seccion-3 {
+  padding: 20px;
+
+  width: 100%;
+  color: white;
+  text-align: center;
+}
+
+.seccion-3-header {
+  color: black;
+}
+
+.seccion-4 {
+  color: white;
+  text-align: center;
+  background-color: rgb(0, 0, 0);
+  padding-top: 20px;
+}
+
+.footer {
+  width: 100%;
+  height: 80px;
+  background-color: black;
+  color: white;
+  text-align: center;
+  line-height: 80px;
+  font-size: 12px;
+}
+
+.box-container {
+  width: 300px;
+  height: 300px;
+  background: peru;
+  position: relative;
+}
+
+.box-1 {
+  width: 100px;
+  height: 100px;
+  background: blue;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.box-2 {
+  width: 100px;
+  height: 100px;
+  background: greenyellow;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
